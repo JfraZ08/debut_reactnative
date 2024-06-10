@@ -2,7 +2,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import { Button, View, Text, StyleSheet, Image, Platform } from 'react-native';
+import { StyleSheet, Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; // Import Ionicons from @expo/vector-icons
 import { useFonts } from 'expo-font'; // Import useFonts from expo-font
 
