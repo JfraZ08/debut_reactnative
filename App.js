@@ -7,6 +7,7 @@ import { Ionicons } from '@expo/vector-icons'; // Import Ionicons from @expo/vec
 import { useFonts } from 'expo-font'; // Import useFonts from expo-font
 import FilView from './components/FillView';
 import ButtonComponent from './components/ButtonComponent';
+import SymbolsView from './components/SymbolsView';
 
 const Stack = createNativeStackNavigator();
 const Tab = createMaterialBottomTabNavigator();
@@ -77,6 +78,14 @@ export default function App() {
           }}
             
         />
+        <Tab.Screen 
+        name='Symbols Keyboard '
+        component={SymbolsView}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <Ionicons name='keypad-outline' size={24} color={color} />
+           )
+        }}/>
       </Tab.Navigator>
     </NavigationContainer>
   );
