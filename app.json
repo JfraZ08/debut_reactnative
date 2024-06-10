@@ -22,6 +22,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "fonts": {
+      "SignRoverLayered": "./assets/fonts/SignRoverLayered.ttf"
     }
   }
 }
